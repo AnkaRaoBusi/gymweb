@@ -80,6 +80,17 @@ ul li a:hover{
     color: #e53408;
 }
 
+.caption1{
+    top: 40%;
+}
+
+.heading{
+    font-size: 4.5rem;
+}
+
+span{
+    color: #e53408;
+}
 
 /*
 .search{
