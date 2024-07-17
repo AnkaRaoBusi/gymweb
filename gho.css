@@ -1,73 +1,98 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
 .main{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(GYM.jpg);
-    background-position: center;
-    background-size: cover;
     height: 100vh;
 }
 
-.navbar{
-    width: 1200px;
-    height: 75px;
-    margin: auto;
+.navbar1{
+    width: 100%;
+    height: 68px;
+    padding: 7px;
+    display: flex;
+    gap: 60px;
 }
 
 .icon{
-    width: 200px;
-    float: left;
-    height: 70px;
+    margin-left: 250px;
+    text-align: center;
+}
+
+.icon *{
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#orange{
+    color: rgb(247, 89, 16);
+}
+.menu{
+    height: 100%;
+    margin-left: 200px;
 }
 
 .logo{
-    width: 100%;
-    height: 100vh;
-    color: #ff7200;
-    font-size: 35px;
-    font-family: Arial;
-    padding-left: 20px;
-    float: left;
-    padding-top: 10px;
-    margin-top: 5px
+    font-family: "Staatliches", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 2.2px;
 }
 
-.menu{
-    width: 400px;
-    float: left;
-    height: 70px;
+.icon p{
+    font-family: "Staatliches", sans-serif;
+  font-weight: 200;
+  font-style:normal;
+  letter-spacing: 0.5px;
 }
-
-ul{
+.ul{
+    height: 100%;
     float: left;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0;
+    
+    gap: 40px;
+    text-align: center;
 }
 
 ul li{
     list-style: none;
-    margin-left: 62px;
-    margin-top: 27px;
     font-size: 20px;
 }
 
+
 ul li a{
     text-decoration: none;
-    color: #fff;
+    color: #000000;
     font-family: Arial;
     font-weight: bold;
     transition: 0.4s ease-in-out;
 }
 
 ul li a:hover{
-    color: #ff7200;
+    color: #e53408;
 }
 
+.caption1{
+    top: 40%;
+}
+
+.heading{
+    font-size: 4.5rem;
+}
+
+span{
+    color: #e53408;
+}
+
+/*
 .search{
     width: 330px;
     float: left;
@@ -113,9 +138,9 @@ ul li a:hover{
 
 .srch:focus{
     outline: none;
-}
+} */
 
-.content{
+/* .content{
     width: 1200px;
     height: auto;
     margin: auto;
@@ -167,8 +192,8 @@ ul li a:hover{
 .content span{
     color: #ff7200;
     font-size: 65px
-}
-
+} */
+/* 
 .form{
     width: 250px;
     height: 380px;
@@ -266,4 +291,4 @@ ul li a:hover{
 }
 .icons ion-icon:hover{
     color: #ff7200;
-}
+} */
